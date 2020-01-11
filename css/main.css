@@ -8,6 +8,12 @@ header, footer {
     font-family: 'Roboto', sans-serif;
     padding: 0.5rem;
 }
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: rgb(238, 119, 0)
+}
 #profile {
     float: right;
 }
