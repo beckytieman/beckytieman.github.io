@@ -15,8 +15,6 @@ header, footer {
 main section {
     background-color: rgb(190, 190, 190);
     border-radius: 15px;
-    padding: 0.5em;
-    margin: 0 auto;
 }
 section header {
     background-color: rgb(64, 67, 61);
@@ -27,9 +25,12 @@ h3 {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    padding: 0.5rem;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+footer a:hover {
+    color: rgb(238, 119, 0)
 }
