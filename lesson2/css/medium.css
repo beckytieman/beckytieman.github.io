@@ -2,7 +2,7 @@
     main {
         grid-template-columns: 1fr 1 fr;
     }
-    #section3 {
+    section:nth-child(3) {
         grid-column: span 2;
     }
 
