@@ -16,9 +16,14 @@ main section {
     background-color: rgb(190, 190, 190);
     border-radius: 15px;
     padding: 0.5em;
+    margin: 0 auto;
+}
+section header {
+    background-color: rgb(64, 67, 61);
+    border-radius: 15px 15px 0px 0px;
 }
 h3 {
-    background-color: rgb(64, 67, 61);
+    
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
