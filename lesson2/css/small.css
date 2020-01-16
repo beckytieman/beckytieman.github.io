@@ -18,7 +18,7 @@ header, footer {
 main section {
     background-color: rgb(190, 190, 190);
     border-radius: 15px;
-    margin: 0px 10px
+    margin-top: 15px;   
 }
 section header {
     background-color: rgb(64, 67, 61);
