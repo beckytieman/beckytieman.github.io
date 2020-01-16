@@ -12,6 +12,10 @@ header, footer {
     padding: 0.5rem;
     border-radius: 0.5rem;
 }
+section {
+    background-color: rgb(190, 190, 190);
+    border-radius: 15px;
+    padding: 0.5em;
 
 h3 {
     background-color: rgb(64, 67, 61);
