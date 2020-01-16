@@ -1,3 +1,8 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
 header, footer {
     background-color: rgb(0, 102, 102);
     text-align: center;
