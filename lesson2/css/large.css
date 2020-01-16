@@ -1,24 +1,5 @@
-main {
+@media only screen and (min-width: 64em) {
+    main {
     grid-template-columns: 1fr 1fr 1fr;
-}
-header, footer {
-    background-color: rgb(0, 102, 102);
-    text-align: center;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-}
-
-h3 {
-    background-color: rgb(64, 67, 61);
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    padding: 0.5rem;
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
+    }
 }
