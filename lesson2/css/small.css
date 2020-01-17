@@ -15,13 +15,13 @@ header, footer {
     font-weight: lighter;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    margin: 1.5em;   }
 }
 main section {
     background-color: rgb(202, 200, 200);
-    border-radius: 15px;
-    margin-top: 15px;   
+    border-radius: 15px;  
 }
-section header {
+#sectionHeader {
     background-color: rgb(64, 67, 61);
     border-radius: 15px 15px 0px 0px;
 }
