@@ -23,6 +23,8 @@ h3 {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
+    padding: 1.5em;
+    margin: 0;
 }
 h4 {
     font-family: 'Roboto', sans-serif;
@@ -31,6 +33,7 @@ h4 {
 
 p {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
     padding: 15px;
     border-radius: 0px 0px 15px 15px;
     background-color: rgb(202, 200, 200);
