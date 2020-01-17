@@ -17,10 +17,6 @@ header, footer {
     border-radius: 0.5rem;
     margin: 1.5em;   
 }
-main section {
-    background-color: rgb(202, 200, 200);
-    border-radius: 15px;  
-}
 #sectionHeader {
     background-color: rgb(64, 67, 61);
     border-radius: 15px 15px 0px 0px;
@@ -39,6 +35,8 @@ h4 {
 p {
     font-family: 'Montserrat', sans-serif;
     padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgb(202, 200, 200);
 }
 p img {
     margin: auto;
