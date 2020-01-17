@@ -40,6 +40,10 @@ p {
     font-family: 'Montserrat', sans-serif;
     padding: 15px;
 }
+img {
+    max-width: 100%;
+    margin: auto;
+}
 footer a {
     color: white;
 }
