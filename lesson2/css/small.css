@@ -1,5 +1,4 @@
 body {
-    max-width: 900px;
     margin: 0 auto:
 }
 main {
@@ -15,7 +14,7 @@ header, footer {
     font-weight: lighter;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    margin: 1.5em;   
+    margin: 1.5em 0 1.5 0;   
 }
 h3 {
     background-color: rgb(64, 67, 61);
