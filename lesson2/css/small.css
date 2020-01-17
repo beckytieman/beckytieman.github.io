@@ -17,12 +17,9 @@ header, footer {
     border-radius: 0.5rem;
     margin: 1.5em;   
 }
-#sectionHeader {
+h3 {
     background-color: rgb(64, 67, 61);
     border-radius: 15px 15px 0px 0px;
-}
-h3 {
-    
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
