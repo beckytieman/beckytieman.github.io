@@ -1,4 +1,4 @@
-header {
+header, footer {
     text-align: center;
     background-color:rgb(190, 85, 14);
     color: white;
@@ -37,11 +37,15 @@ main {
     background-color: rgb(233, 231, 231);
     padding: 1em
 }
-h1 {
+#h1Home {
     font-family: 'Francois One', sans-serif;
     font-size: 40px;
     letter-spacing: 1px;
     margin-bottom: .25em;
+}
+.h1SubPage {
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -51,7 +55,19 @@ h3 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     color: rgb(190, 85, 14);
+    margin-bottom: 0;
 }
-p {
+hr {
+    margin-top: .25em;
+}
+p, footer {
     font-family: 'Montserrat', sans-serif;
+}
+footer a {
+    color: white;
+}             
+#colorSwatch {
+    width: 75%;
+    margin: auto;
+    display: block;
 }
