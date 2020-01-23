@@ -1,0 +1,13 @@
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav {
+    background-color: gray;
+    border: 1px black solid;
+    color: white;
+}
+nav a:hover {
+    color: black;
+    background-color: white;
+}
