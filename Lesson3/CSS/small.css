@@ -71,3 +71,8 @@ footer a {
     margin: auto;
     display: block;
 }
+
+/* target-audience only */
+h4, .personas, #scenarios {
+    font-family: 'Montserrat', sans-serif;
+}
