@@ -71,7 +71,7 @@ footer a {
     display: block;
 }
 
-/* target-audience only */
-h4, .personas, #scenarios {
+/* target-audience/color scheme only */
+h4, .personas, #scenarios, #colorScheme, main li {
     font-family: 'Montserrat', sans-serif;
 }
