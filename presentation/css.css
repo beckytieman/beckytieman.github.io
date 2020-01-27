@@ -1,0 +1,43 @@
+#box_one {
+    background-color: teal;
+    color: white;
+    padding: 25px;
+    border: 10px solid black;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+#box_two {
+    background-color: rgb(206, 206, 76);
+    color:black;
+    padding: 25px;
+    border: 10px solid black;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+}
+
+#box_three {
+    background-color: rgb(161, 114, 122);
+    color: white;
+    padding: 25px;
+    border: 10px solid black;
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+
+}
+
+#boxImage {
+    margin: 0px 50px;
+    width: 150px;
+    height: 150px;
+  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
