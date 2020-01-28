@@ -1,8 +1,25 @@
-header, footer {
-    text-align: center;
+header {
     background-color:rgb(190, 85, 14);
     color: white;
-    padding: 0.5em;
+    padding: 7px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#logo {
+    width: 70px;
+    height: 48px;
+}
+
+#tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+h1 {
+    font-family: 'Francois One', sans-serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin: 0;
 }
 body {
     max-width: 900px ;
@@ -35,8 +52,18 @@ nav li a:hover {
 main {
     background-color: rgb(233, 231, 231);
     padding: 1em
+}
+.placeHolder {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
 footer {
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;;
+    text-align: center;
+    background-color:rgb(190, 85, 14);
+    color: white;
+    padding: 0.5em;
 }
 footer a {
     color: white;
