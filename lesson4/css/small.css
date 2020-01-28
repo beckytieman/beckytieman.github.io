@@ -1,0 +1,43 @@
+header, footer {
+    text-align: center;
+    background-color:rgb(190, 85, 14);
+    color: white;
+    padding: 0.5em;
+}
+body {
+    max-width: 900px ;
+    margin: 0 auto;
+}
+nav {
+    background-color: rgb(92, 91, 91);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*nav li {
+    float: left;
+}*/
+nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em 2em 0.5em 2em ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+nav li a:hover {
+    background-color: rgb(184, 182, 182);
+    color: black;
+}
+main {
+    background-color: rgb(233, 231, 231);
+    padding: 1em
+footer {
+    font-family: 'Montserrat', sans-serif;
+}
+footer a {
+    color: white;
+}             
