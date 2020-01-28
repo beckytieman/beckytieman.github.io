@@ -22,13 +22,19 @@ h1 {
     margin: 0;
 }
 body {
-    max-width: 900px ;
     margin: 0 auto;
+}
+button {
+    background: none;
+    border: none;
+    color: white;
+    
+
 }
 nav {
     background-color: rgb(92, 91, 91);
 }
-nav ul {
+nav .nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,7 +43,16 @@ nav ul {
 /*nav li {
     float: left;
 }*/
-nav li a {
+.nav li:first-child {
+    display: block;
+}
+.nav li {
+    display: none;
+}
+.responsive li{
+    display: block;
+}
+.nav li a {
     display: block;
     text-decoration: none;
     text-align: center;
@@ -45,7 +60,7 @@ nav li a {
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
-nav li a:hover {
+.nav li a:hover {
     background-color: rgb(184, 182, 182);
     color: black;
 }
@@ -55,7 +70,10 @@ main {
 }
 .placeHolder {
     font-family: 'Montserrat', sans-serif;
-    padding: 5px;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
 }
 footer {
     font-family: 'Montserrat', sans-serif;

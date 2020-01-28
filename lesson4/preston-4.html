@@ -5,7 +5,7 @@
     <meta name="description" content="High Country Weather: City of Preston">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/small.css">
-    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="CSS/large.css">
     <link href="https://fonts.googleapis.com/css?family=Francois+One%7cMontserrat&display=swap" rel="stylesheet">
 
@@ -22,10 +22,10 @@
         
     </header>
     <nav>
-        <button>&#9776</button>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Preston</a></li>
+        <ul class="nav">
+            <li><a href="#" onlick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-4.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -43,6 +43,7 @@
         <br/><span id="lastModified"></span>
         <script src="js/lastModifiedDate.js"></script>
     </footer>
+    <script src="js/toggleMenu.js"></script>
 </body>
 
 </html>
