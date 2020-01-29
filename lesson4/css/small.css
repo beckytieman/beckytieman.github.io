@@ -29,13 +29,6 @@ h1 {
     margin: 0 auto;
    
 }
-button {
-    background: none;
-    border: none;
-    color: white;
-    
-
-}
 nav {
     background-color: rgb(92, 91, 91);
 }
@@ -75,6 +68,10 @@ nav {
 main {
     background-color: rgb(233, 231, 231);
     padding: 1em
+}
+h2 {
+    font-family: 'Francois One', sans-serif;
+    color: rgb(37, 37, 37)
 }
 .placeHolder {
     font-family: 'Montserrat', sans-serif;
