@@ -1,12 +1,12 @@
 @media only screen and (min-width: 32.5em) {
-    .nav {
+    .navigation {
         display: flex;
         justify-content: center;
     }
-    nav li:first-child {
+    .navigation li:first-child {
         display: none;
     }
-    nav li {
+    .navigation li {
         display: block;
     }
     
