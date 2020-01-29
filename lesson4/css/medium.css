@@ -9,5 +9,16 @@
     .navigation li {
         display: block;
     }
-    
+    h1 {
+        font-size: 26px;
+    }
+    #tagline {
+        font-size: 16px;
+        margin-top: 2px;
+    }
+    #logo {
+        width: 150;
+        height: auto;
+    }
+  
 }

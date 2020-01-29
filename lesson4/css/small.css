@@ -1,25 +1,3 @@
-/*nav {
-
-}
-.navigation {
-
-}
-.navigation li:first-child {
-
-}
-.navigation li {
-
-}
-.navigation a {
-
-}
-.navigation a:hover {
-
-}
-.responsive li {
-
-}
-*/
 header {
     background-color:rgb(190, 85, 14);
     color: white;
@@ -32,19 +10,24 @@ header {
     width: 70px;
     height: 48px;
 }
-
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
 #tagline {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
+    margin: 0 auto;
+    
 }
 h1 {
     font-family: 'Francois One', sans-serif;
     letter-spacing: 1px;
-    font-size: 25px;
-    margin: 0;
-}
-body {
+    font-size: 1.1em;
     margin: 0 auto;
+   
 }
 button {
     background: none;
