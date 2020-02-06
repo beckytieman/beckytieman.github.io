@@ -87,8 +87,9 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     top: 1em;
     left: 1em;
-    background-color: rgba(190, 85, 14, 0.75);
-    border: 1px solid rgba(190, 85, 14, 0.5);
+    background-color: rgba(92, 91, 91, 0.8);
+    border: 1px solid rgba(92, 91, 91, 0.4);
+    color: white;
 
 }
 h3 {
@@ -96,35 +97,47 @@ h3 {
     margin: 0;
 }
 .weatherSummary p {
-    padding: 0 0 1em 1em;
+    padding: 0 0 .5em 1em;
     margin: 0;
 }
 /* 5 Day Forecast Area*/
-.forecast h3{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+.forecast {
+    display: none;
 }
 /* Article Area*/
 .article {
     background-color: rgb(233, 231, 231);
     font-family: 'Montserrat', sans-serif;
-    margin-top: 1em;
+    margin-bottom: 1em;
 }
 .article p {
     padding: 0 1em 1em 1em;
     margin: 0;
 }
 #articlePic {
-    float: right;
     margin: 1em;
     box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2), -5px -5px 10px 0 rgba(0, 0, 0, 0.2) ;
 }
-.placeHolder {
+/*Contact Area*/
+.contact {
+    background-color: rgb(187, 187, 187);
     font-family: 'Montserrat', sans-serif;
-    padding: 10px;
-    margin: 5px;
-    background-color: white;
-    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo {
+    padding: 1em;
+}
+#contactMap {
+    display: none;
+    margin: 1em;
+}
+.contact p {
+    font-size: .8em;
+}
+.socialIcons img {
+    margin: .3em;
 }
 footer {
     font-family: 'Montserrat', sans-serif;
