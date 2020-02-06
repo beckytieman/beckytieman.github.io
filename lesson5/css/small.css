@@ -150,3 +150,13 @@ footer {
 footer a {
     color: white;
 }             
+/*announcent display*/
+#announcement {
+    display: block;
+    background-color: turquoise;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+}
