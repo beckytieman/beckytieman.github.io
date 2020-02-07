@@ -20,6 +20,14 @@
         width: 150px;
         height: auto;
     }
+/*Weather Summary*/
+.weatherSummary {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    
+
+}
   /* 5 Day Forecast Area*/
 .forecast {
     display: block;
