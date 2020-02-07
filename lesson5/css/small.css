@@ -75,7 +75,7 @@ h2 {
 
 /* Weather Summary Area */
 .heroSummary {
-    margin: 0auto;
+    margin: 0;
     position: relative;
 }
 #prestonHero {
