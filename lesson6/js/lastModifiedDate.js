@@ -7,4 +7,4 @@ var d=new Date()
     document.write(d.getDate() + ", ")
     document.write(monthname[d.getMonth()] + " ")
     document.write(d.getFullYear())
-    var p = document.getElementById("day").innerHTML = d;
+    document.getElementById("day").innerHTML = d;

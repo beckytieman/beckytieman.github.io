@@ -42,14 +42,26 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class="heroSummary">
-            <img id="prestonHero" src="images/jeremy-bishop-pnSwnfQpPf4-unsplash.jpg" alt="Preston Mountains">
+            <picture class="heroPic">
+                <source media="(max-width: 500px)" srcset="images/franklin500.jpg">
+                <source media="(max-width: 800px)" srcset="images/franklin800.jpg">
+                <img src="images/franklin1100.jpg" alt ="Franklin, Idaho">
+            </picture>
             <section class="weatherSummary">
                 <h3>Weather Summary</h3>
-                <p>Currently: 31°</p>
-                <p>High: 35°</p>
-                <p>Wind Chill: 28°</p>
-                <p>Humidity: 71%</p>
-                <p>Wind Speed: 9mph</p>
+                <div class="weatherSumInfo">
+                    <p class ="weatherItem">Currently:</p>
+                    <p id="Current">31</p>
+                    <p class ="weatherItem">High:</pclass ="weatherItem">
+                    <p id="High">35°</p>
+                    <p class ="weatherItem">Wind Chill:</p>
+                    <p id="Wind Chill"></p>
+                    <p class ="weatherItem">Humidity:</p>
+                    <p id="Humidity">71%</p>
+                    <p class ="weatherItem">Wind Speed:</p>
+                    <p id="Wind Speed">9</p>
+                </div>
+                
             </section>
         </div>
         <section class="forecast">
@@ -117,8 +129,10 @@
         <script src="js/lastModifiedDate.js"></script>
     </footer>
 
+    <script src="js/windchill.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/displayAnnouncement.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webFont.js"></script>
 </body>
 
