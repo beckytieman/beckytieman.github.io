@@ -1,8 +1,15 @@
 
-var temp = parseFloat(document.getElementById ('Current').value);
-var speed = parseFloat(document.getElementById ('Wind Speed').value);
-var output = windChill(temp, speed)
-document.getElementById('Wind Chill').innerHTML = output
+var temp = parseFloat(document.getElementById ('Current').textContent);
+var speed = parseFloat(document.getElementById ('Wind Speed').textContent);
+var output = Math.round(windChill(temp, speed))
+
+if(temp <= 50 && speed > 3) {
+    document.getElementById('Wind Chill').innerHTML = output + "&deg;F"
+}
+else {
+    document.getElementById('Wind Chill').innerHTML = "N/A"
+}
+
 
 
 //calculation and result rounded to 2 decimals
