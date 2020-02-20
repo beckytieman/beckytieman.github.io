@@ -77,4 +77,10 @@
 #contactMap {
     display: block;
 }
+
+/*gallery grid*/
+.galleryGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 }

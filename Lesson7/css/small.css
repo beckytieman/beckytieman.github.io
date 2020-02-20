@@ -84,4 +84,22 @@ footer {
 }
 footer a {
     color: white;
-}             
+}        
+/*Gallery grid section*/
+
+.galleryGrid figure figcaption {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.galleryGrid {
+    display: grid;
+}
+.galleryGrid figure {
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(241, 241, 241);
+}
+.galleryGrid img {
+    width: 100%;
+    
+}

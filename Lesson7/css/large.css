@@ -12,4 +12,12 @@
         font-size: 16px;
         margin-top: 2px;
     }
+    .galleryGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .galleryGrid figure:hover {
+        box-shadow: 0px 0px 15px 5px #be550e
+
+    }
 }
