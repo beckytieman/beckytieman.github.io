@@ -1,0 +1,105 @@
+header {
+    background-color:rgb(190, 85, 14);
+    color: white;
+    padding: 7px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#logo {
+    width: 70px;
+    height: 48px;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: 0 auto;
+    
+}
+h1 {
+    font-family: 'Francois One', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    margin: 0 auto;
+   
+}
+nav {
+    background-color: rgb(92, 91, 91);
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+/*nav li {
+    float: left;
+}*/
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.navigation li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em 2em 0.5em 2em ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.navigation li a:hover {
+    background-color: rgb(184, 182, 182);
+    color: black;
+}
+.responsive li{
+    display: block;
+}
+.active {
+    background-color: rgb(71,71,71);
+}
+h2 {
+    font-family: 'Francois One', sans-serif;
+    color: rgb(37, 37, 37);
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+    
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;;
+    text-align: center;
+    background-color:rgb(190, 85, 14);
+    color: white;
+    padding: 0.5em;
+}
+footer a {
+    color: white;
+}        
+/*Gallery grid section*/
+
+.galleryGrid figure figcaption {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.galleryGrid {
+    display: grid;
+}
+.galleryGrid figure {
+    margin: 10px;
+    padding: 7px;
+    background-color: rgb(241, 241, 241);
+}
+.galleryGrid img {
+    width: 100%;
+    
+}
