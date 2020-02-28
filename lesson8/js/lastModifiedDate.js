@@ -8,3 +8,7 @@ var d=new Date()
     document.write(monthname[d.getMonth()] + " ")
     document.write(d.getFullYear())
     document.getElementById("day").innerHTML = d;
+
+    function adjustRating(rating) {
+        document.getElementById("ratingvalue").innerHTML = rating;
+    }
