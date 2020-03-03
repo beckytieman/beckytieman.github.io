@@ -1,0 +1,53 @@
+h1, h2, p, footer {
+    text-align: center;
+}
+h1, h2 {
+    font-family: 'Rufina';
+}
+p {
+    margin: .5rem;
+    font-family: 'Roboto';
+}
+footer {
+    font-family: 'Roboto';
+    margin: 1rem;
+   
+}
+div.cards {
+    display: grid;
+    grid-gap: 5px;
+    background-color: #8fc7dd;
+    padding: 1rem;
+    box-shadow: 0 0 20px #575757;
+    
+}
+div section {
+    background-color: #4b9bbb;
+    border: 1px solid #006666;
+    border-radius: 3px;
+}
+div section img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    margin-top: .75rem;
+    max-width: 75%;
+    box-shadow: 0 0 15px #404040;
+}
+body {
+    margin: 0;
+}
+
+/*----------------- Medium Screens ----------------*/
+@media only screen and (min-width: 32.5em) {
+    div.cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*------------------ Large Screens ------------------*/
+@media only screen and (min-width: 64em) {
+    div.cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

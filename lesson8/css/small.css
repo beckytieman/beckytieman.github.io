@@ -98,6 +98,9 @@ form legend {
     margin: 0 1rem;
     padding: 0 .5rem;
 }
+/*form label input {
+    margin: 0 auto;*/
+
 form label.top, form div {
     display: block;
     padding-top: 1rem;
