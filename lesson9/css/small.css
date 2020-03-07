@@ -149,9 +149,8 @@ div {
 }
 div.towns {
     display: grid;
-    grid-gap: 15px;
 }
-div.towns section {
+div.towns div {
     background-color: rgb(231, 231, 231);
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -159,7 +158,7 @@ div.towns section {
     
 }
 
-div.towns section img {
+div.towns div img {
     display: block;
     max-width: 100%;
     margin: 0 auto;

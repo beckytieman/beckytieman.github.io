@@ -14,11 +14,18 @@
     }
     div.towns {
         display: grid;
+        grid-gap: 15px;
         grid-template-columns: 1fr 1fr 1fr;
-        
     }
-    div.towns section:hover {
+    div.towns div {
+        display: block;
+        padding: 0;
+    }
+    div.towns div:hover {
         box-shadow: 0px 0px 10px 5px #be550e
     
+    }
+    div.towns div img {
+        max-width: 100%;
     }
 }

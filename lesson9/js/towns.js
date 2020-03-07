@@ -11,7 +11,10 @@ fetch(requestURL)
 
     for (let i = 0; i < towns.length; i++ ) {
         if (towns[i].name == 'Preston' || towns[i].name == 'Fish Haven' || towns[i].name == 'Soda Springs') {
+        let townsDiv = document.createElement('div');
         let card = document.createElement('section');
+        
+
         let h2 = document.createElement('h2');
         let h3 = document.createElement('h3');
         let year = document.createElement('p')
@@ -32,10 +35,13 @@ fetch(requestURL)
         card.appendChild(year);
         card.appendChild(pop);
         card.appendChild(rain);
-        card.appendChild(image);
+        
+        townsDiv.appendChild(card);
+        townsDiv.appendChild(image);
       
 
-        document.querySelector('div.towns').appendChild(card);
+        document.querySelector('div.towns').appendChild(townsDiv);
+        
     }
         else {
             continue;

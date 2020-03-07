@@ -20,18 +20,32 @@
         width: 150px;
         height: auto;
     }
-/*---------- Home Page ----------*/
-
+ /*---------- Home Page ----------*/
     div.towns {
-    display: flex;
-    flex-direction: row;
+        display: block;
     }
-
-    div.towns section:nth-child(odd){
-    flex-direction: row-reverse;
+    div.towns div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 10px;
     }
-/*contact area*/
+    div.towns div:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    div.towns div section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    div.towns div img {
+        margin: 0;
+        max-width: 50%;
+    }
+    /*contact area*/
     #contactMap {
-    display: block;
-}
+        display: block;
+    }
 }
