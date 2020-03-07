@@ -1,0 +1,37 @@
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+        justify-content: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    #tagline {
+        font-size: 16px;
+        margin-top: 2px;
+    }
+    #logo {
+        width: 150px;
+        height: auto;
+    }
+/*---------- Home Page ----------*/
+
+    div.towns {
+    display: flex;
+    flex-direction: row;
+    }
+
+    div.towns section:nth-child(odd){
+    flex-direction: row-reverse;
+    }
+/*contact area*/
+    #contactMap {
+    display: block;
+}
+}
