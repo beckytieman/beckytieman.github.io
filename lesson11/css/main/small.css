@@ -1,0 +1,167 @@
+header {
+    background-color:rgb(190, 85, 14);
+    color: white;
+    padding: 7px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#logo {
+    width: 70px;
+    height: 48px;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: 0 auto;
+    
+}
+h1 {
+    font-family: 'Francois One', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    margin: 0 auto;
+   
+}
+nav {
+    background-color: rgb(92, 91, 91);
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+/*nav li {
+    float: left;
+}*/
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.navigation li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em 2em 0.5em 2em ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.navigation li a:hover {
+    background-color: rgb(184, 182, 182);
+    color: black;
+}
+.responsive li{
+    display: block;
+}
+.active {
+    background-color: rgb(71,71,71);
+}
+
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;;
+    text-align: center;
+    background-color:rgb(190, 85, 14);
+    color: white;
+    padding: 0.5em;
+}
+footer a {
+    color: white;
+}        
+/*----------Contact Area-----------------*/
+.contact {
+    background-color: rgb(187, 187, 187);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo {
+    padding: 1em;
+}
+#contactMap {
+    display: none;
+    margin: 1em;
+}
+.contact p {
+    font-size: .8em;
+}
+.socialIcons img {
+    margin: .3em;
+}
+/*------------- Home Page --------------*/
+.WeatherStory {
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(219, 219, 219);
+}
+.WeatherStory p {
+    padding: 1.5rem 3rem 1.5rem 3rem;
+}
+#IdahoMain {
+    width: 100%;
+}
+#WeatherStoryTitle {
+    font-size: 26px;
+    padding: 1rem;
+
+}
+
+/*--------------- Towns -----------------*/
+h2 {
+    font-size: 28px;
+    font-family: 'Francois One', sans-serif;
+    color: rgb(44, 44, 44);
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+    text-align: center;
+    
+}
+p {
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    margin: 0;
+    padding: .35rem;
+
+}
+h3 {
+    color: rgb(71,71,71);
+    font-size: 17px;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+    padding: .5rem 1rem 1rem 1rem;
+
+}
+div {
+    margin: 0;
+}
+div.towns {
+    display: grid;
+}
+div.towns div {
+    background-color: rgb(231, 231, 231);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(219, 219, 219);
+    
+}
+
+div.towns div img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: .5rem;
+}
+

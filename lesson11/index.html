@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>High Country Weather</title>
+    <meta name="description" content="High Country Weather: Home Page">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/main/normalize.css">
+    <link rel="stylesheet" href="css/main/small.css">
+    <link rel="stylesheet" href="css/main/medium.css">
+    <link rel="stylesheet" href="css/main/large.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="images/logoHighMountain.png" alt="High Mountain Logo">
+        <section class="headings">
+            <h1>High Country Weather</h1>
+            <div id="tagline">Accurate Forecast. All The Time. </div>
+        </section>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="https://beckytieman.github.io/lesson10/preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://beckytieman.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://beckytieman.github.io/Lesson7/preston-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="WeatherStory">
+            <h2 id="WeatherStoryTitle">Welcome to the High Country</h2>
+            <img id="IdahoMain" src="images/IdahoWeatherStory.jpg" alt="Idaho Mountain Range">
+            <p>Since 1991, High Country Weather has been proud to bring accurate and up to date weather facts across Southwest Idaho. 
+                We enjoy serving the beautiful cities of Preston, Soda Springs, Fish Haven and their surrounding communities. <br>Thank you for visiting us in the mountains!</p>
+        </section>
+        <div class="towns"></div>
+
+        <section class="contact">
+            <img id="contactMap" src="images/preston_map.jpg" alt="Map of Preston">
+            <div class="contactInfo">
+                <h4>High Country Weather</h4>
+                <p>70 W Oneida<br>
+                    Preston, ID 83263</p>
+                <p>&#128222; 999.999.9999<br>
+                    &#128231; HCWeather@hcw.com</p>
+                <div class="socialIcons">
+                    <img src="images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook icon">
+                    <img src="images/iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="instagram icon">
+                    <img src="images/iconfinder_1_Twitter3_colored_svg_5296516.png" alt="twitter icon">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; High Country Weather | Becky Tieman
+        <br /><span id="lastModified"></span>
+        <script src="js/lastModifiedDate.js"></script>
+    </footer>
+
+    <script src="js/toggleMenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webFont.js"></script>
+    <script src="js/towns.js"></script>
+</body>
+
+</html>

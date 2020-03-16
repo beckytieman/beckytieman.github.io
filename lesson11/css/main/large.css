@@ -1,0 +1,31 @@
+@media only screen and (min-width: 64em) {
+    
+    main, footer {
+        max-width: 960px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    #tagline {
+        font-size: 16px;
+        margin-top: 2px;
+    }
+    div.towns {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    div.towns div {
+        display: block;
+        padding: 0;
+    }
+    div.towns div:hover {
+        box-shadow: 0px 0px 10px 5px #be550e
+    
+    }
+    div.towns div img {
+        max-width: 100%;
+    }
+}

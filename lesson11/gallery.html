@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Image Gallery</title>
+    <meta name="description" content="High Country Weather: Image Gallery">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/gallery/normalize.css">
+    <link rel="stylesheet" href="css/gallery/small.css">
+    <link rel="stylesheet" href="css/gallery/medium.css">
+    <link rel="stylesheet" href="css/gallery/large.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="images/logoHighMountain.png" alt="High Mountain Logo">
+        <section class="headings">
+            <h1>High Country Weather</h1>
+            <div id="tagline">Accurate Forecast. All The Time. </div>
+        </section>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="https://beckytieman.github.io/lesson9/index.html">Home</a></li>
+            <li><a href="https://beckytieman.github.io/lesson10/preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://beckytieman.github.io/lesson8/stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="preston-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Weather Gallery</h2>
+            <div class="galleryGrid">
+                <figure>
+                    <img src="images/placeholder400w.jpg" data-src="images/blizzard_icy400w.jpg" alt="Blizzard">
+                    <figcaption>Blizzard: Icy Conditions</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder400w.jpg" data-src="images/foggy400w.jpg" alt="foggy road">
+                    <figcaption>Fog: Low Visability</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder400w.jpg" data-src="images/partly_cloudy400w.jpg" alt="partly cloudy">
+                    <figcaption>Partly Cloudy</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder400w.jpg" data-src="images/showers400w.jpg" alt="rain showers">
+                    <figcaption>Rain Showers</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder400w.jpg" data-src="images/partly_sunny400w.jpg">
+                    <figcaption>Partly Sunny</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder400w.jpg" data-src="images/snowing400w.jpg" alt="snowing">
+                    <figcaption>Snow Flurries</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder400w.jpg" data-src="images/sunny400w.jpg" alt="sunny day">
+                    <figcaption>Sunshine and Clear</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder400w.jpg" data-src="images/thunderstorm400w.jpg"
+                        alt="storm with lightning">
+                    <figcaption>Thunderstorm</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/placeholder400w.jpg" data-src="images/windy400w.jpg" alt="windy day">
+                    <figcaption>Windy Conditions</figcaption>
+                </figure>
+
+
+            </div>
+
+    </main>
+    <footer>
+        &copy; High Country Weather | Becky Tieman
+        <br /><span id="lastModified"></span>
+        <script src="js/lastModifiedDate.js"></script>
+    </footer>
+    <script src="js/lazyload.js"></script>
+
+    <script src="js/toggleMenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webFont.js"></script>
+</body>
+
+</html>
