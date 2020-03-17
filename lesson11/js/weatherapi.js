@@ -6,7 +6,7 @@ fetch(apiURL)
     document.getElementById('Current').textContent = jsObject.weather[0].main;
     document.getElementById('High').textContent = Math.round(jsObject.main.temp);
     document.getElementById('Humidity').textContent = jsObject.main.humidity;
-    document.getElementById('WindSpeed').textContent = jsObject.wind.speed;
+    document.getElementById('WindSpeed').textContent = Math.round(jsObject.wind.speed);
 
 
     // Windchill calculations

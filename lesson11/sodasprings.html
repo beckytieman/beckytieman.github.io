@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Soda Springs, ID</title>
+    <meta name="description" content="High Country Weather: City of Soda Springs">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="images/logoHighMountain.png" alt="High Mountain Logo">
+        <section class="headings">
+            <h1>High Country Weather</h1>
+            <div id="tagline">Accurate Forecast. All The Time. </div>
+        </section>
+
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Soda Springs Idaho</h2>
+        <div class="heroSummary">
+            <picture class="heroPic">
+                <source media="(max-width: 500px)" srcset="images/hero500.jpg">
+                <source media="(max-width: 800px)" srcset="images/hero800.jpg">
+                <img src="images/hero960.jpg" alt="Preston, Idaho">
+            </picture>
+            <section class="weatherSummary">
+                <h3>Weather Summary</h3>
+                <div class="weatherSumInfo">
+                    <p class="weatherItem">Currently:</p>
+                    <p><span id="Current"></span></p>
+                    <p class="weatherItem">Current Temp:</p>
+                    <p><span id="High"></span>&deg;F</p>
+                    <p class="weatherItem">Wind Chill:</p>
+                    <p><span id="WindChill"></span></p>
+                    <p class="weatherItem">Humidity:</p>
+                    <p><span id="Humidity"></span>%</p>
+                    <p class="weatherItem">Wind Speed:</p>
+                    <p><span id="WindSpeed"></span> mph</p>
+                </div>
+
+            </section>
+        </div>
+        <section class="forecast">
+            <h3>5 Day Forcast</h3>
+            <div class="forecastWrap">
+                <div class="forecastDay"><span id="day1"></span></div>
+                <div class="forecastDay"><span id="day2"></span></div>
+                <div class="forecastDay"><span id="day3"></span></div>
+                <div class="forecastDay"><span id="day4"></span></div>
+                <div class="forecastDay"><span id="day5"></span></div>
+                <div class="forecastPic"><img id="foreIcon1"></div>
+                <div class="forecastPic"><img id="foreIcon2"></div>
+                <div class="forecastPic"><img id="foreIcon3"></div>
+                <div class="forecastPic"><img id="foreIcon4"></div>
+                <div class="forecastPic"><img id="foreIcon5"></div>
+                <div class="forecastTemp"><span id="foreTemp1"></span>&deg;F</div>
+                <div class="forecastTemp"><span id="foreTemp2"></span>&deg;F</div>
+                <div class="forecastTemp"><span id="foreTemp3"></span>&deg;F</div>
+                <div class="forecastTemp"><span id="foreTemp4"></span>&deg;F</div>
+                <div class="forecastTemp"><span id="foreTemp5"></span>&deg;F</div>
+
+            </div>
+
+        </section>
+        <section class="calendar">
+            <h2>Upcoming Events</h2>
+            <hr>
+            <div class="events"></div>
+    </section>
+        <section class="article">
+            <img id="articlePic" src="images/joseph-keil-O0vW1bBOrFI-unsplash.jpg" alt="man on bucking horse">
+            <h3>Not Their First Rodeo</h3>
+            <p>by Jaime Wheeler</p>
+            <p>As the weather starts to warm up for us, we can see Rodeo season just around the corner! 
+                Starting off the season this year is the 14th annual Franklin County Rodeo and we will be seeing a lot of fresh faces. Event manager Karen Ashby, 
+                has happily reported that event participant registration nearly doubled from last year. 
+                So who are all these new riders and what will they bring to this years season? Carter Beals, age 18, 
+                will be entering the adults Mens division for the first time, but Carter is newcomer to the sport. 
+                He has been riding nearly as long as he has been walking anf currently hold 3 Jr. Division champion titles.
+                Another one to watch is 22 year old, Mackensie Rich, who just recently switched her focus from competive Equestrian Vaulting.  
+                She definitely knows her way with horses and is eager to prove herself as one of the youngest female competitors this year. 
+                To all you riders out there, new and old, we wish you a safe and eventful season!
+            </p>
+
+        </section>
+        <section class="contact">
+            <img id="contactMap" src="images/preston_map.jpg" alt="Map of Preston">
+            <div class="contactInfo">
+                <h4>High Country Weather</h4>
+                <p>70 W Oneida<br>
+                    Preston, ID 83263</p>
+                <p>&#128222; 999.999.9999<br>
+                    &#128231; HCWeather@hcw.com</p>
+                <div class="socialIcons">
+                    <a href="facebook.com"><img src="images/iconfinder_Colored_Facebook3_svg_5365678.png" alt="facebook icon"></a>
+                    <a href="instagram.com"><img src="images/iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="instagram icon"></a>
+                    <a href="twitter.com"><img src="images/iconfinder_1_Twitter3_colored_svg_5296516.png" alt="twitter icon"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; High Country Weather | Becky Tieman | Forecast data provided by <a href="https://openweathermap.org/">Open Weather</a> 
+        <br /><span id="lastModified"></span>
+        <script src="js/lastModifiedDate.js"></script>
+    </footer>
+
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/eventsSoda.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webFont.js"></script>
+    <script src="js/sodaWeather.js"></script>
+</body>
+
+</html>
