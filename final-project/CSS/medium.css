@@ -1,0 +1,59 @@
+@media only screen and (min-width: 32.5em) {
+
+    /*---------------Header Section---------------*/
+    img#logo {
+        width: 150px;
+    }
+
+    #companyLogo {
+        position: relative;
+        top: -2rem;
+        left: 1rem;
+        width: 210px;
+    }
+
+    .companyName {
+        margin-top: -11.5rem;
+        margin-left: 15.5rem;
+
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    /*-----------------Weather Conditions--------------------*/
+    .weather {
+        display: block;
+    }
+
+    .weatherInfo {
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+        margin: 0;
+        margin-left: 3rem;
+        padding-right: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    /*-----------------Trip Links Section--------------------*/
+    .bonusLinks {
+        display: flex;
+    }
+
+    .hexImg {
+        margin: 4rem
+    }
+
+    /*-----------------Footer--------------------*/
+    .footerInfo {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .leftFooter h2, p {
+        text-align: left;
+    }
+}
