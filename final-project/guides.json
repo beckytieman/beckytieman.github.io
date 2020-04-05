@@ -1,0 +1,43 @@
+{"guides": [
+    {
+        "name": "Richard (Rick) Cook",
+        "photo": "richard.jpg",
+        "yearsExperience": "22",
+        "biography": "",
+        "certification": ["ACA Instructor Certification - 2014",
+            "Whitewater Rafting Skills Level 4 Certification",
+            "First Aid and CPR Certified"],
+        "email": "RCook@SalmonAdventures.com"
+
+    },
+    {
+        "name": "Clint Wilkerson",
+        "photo": "clint.jpg",
+        "yearsExperience": "14",
+        "biography": "",
+        "certification": ["ACA Instructor Certification - 2017",
+            "Whitewater Rafting Skills Level 4 Certification",
+            "First Aid and CPR Certified"],
+        "email": "ClintWilks@SalmonAdventures.com"
+
+    },
+    {
+        "name": "Sadie Cook",
+        "photo": "sadie.jpg",
+        "yearsExperience": "6",
+        "biography": "",
+        "certification": ["Whitewater Rafting Skills Level 2 Certification",
+            "First Aid and CPR Certified"],
+        "email": "SadieCook@SalmonAdventures.com"
+    },
+    {
+        "name": "Patrick Byrne",
+        "photo": "patrick.jpg",
+        "yearsExperience": "11",
+        "biography": "",
+        "certification": ["ACA Essentials Skills Cert",
+            "Whitewater Rafting Skills Level 3 Certification",
+            "First Aid and CPR Certified"],
+        "email": "RCook@SalmonAdventures.com"
+    }
+]}

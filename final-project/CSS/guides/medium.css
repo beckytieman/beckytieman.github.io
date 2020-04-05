@@ -1,0 +1,50 @@
+@media only screen and (min-width: 32.5em) {
+
+    /*---------------Header Section---------------*/
+    #logo {
+        width: 150px;
+    }
+
+    #companyLogo {
+        position: relative;
+        top: -2rem;
+        left: 1rem;
+        width: 210px;
+    }
+
+    .companyName {
+        margin-top: -11.5rem;
+        margin-left: 15.5rem;
+
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    /*----------------Body---------------------*/
+    .ratingIcons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tripIMG {
+        margin-top: 2rem;
+    }
+    h3 {
+        margin: 0;
+    }
+
+    /*-----------------Footer--------------------*/
+    .footerInfo {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .leftFooter h2,
+    .leftFooter p {
+        text-align: left;
+    }
+}
