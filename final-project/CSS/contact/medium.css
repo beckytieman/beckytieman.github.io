@@ -1,0 +1,62 @@
+@media only screen and (min-width: 32.5em) {
+
+    /*---------------Header Section---------------*/
+    #logo {
+        width: 150px;
+    }
+
+    #companyLogo {
+        position: relative;
+        top: -2rem;
+        left: 1rem;
+        width: 210px;
+    }
+
+    .companyName {
+        margin-top: -11.5rem;
+        margin-left: 15.5rem;
+
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    /*----------------Body---------------------*/
+
+    .contactWelcome p {
+        font-size: 24px;
+    }
+
+    #map {
+        margin-bottom: 4rem;
+    }
+
+    .contactForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    label.top {
+        text-align: left;
+    }
+
+    fieldset textarea {
+        max-width: 100%;
+    }
+
+
+    /*-----------------Footer--------------------*/
+    .footerInfo {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .leftFooter h2,
+    .leftFooter p {
+        text-align: left;
+    }
+}

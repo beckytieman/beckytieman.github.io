@@ -1,0 +1,98 @@
+@media only screen and (min-width: 64em) {
+
+    /*---------------Header Section---------------*/
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li:nth-child(7) {
+        display: block;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    .navigation li a {
+        text-align: center;
+    }
+
+    .navigation li a,
+    .navigation li a:after,
+    .navigation li a:before {
+        transition: all .5s;
+    }
+
+    .navigation li a {
+        position: relative;
+    }
+
+    .navigation li a:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: #99c24d;
+        height: 3px;
+    }
+
+    .navigation li a:hover:after {
+        width: 100%;
+    }
+
+    .navigation li a:after {
+        text-align: left;
+        content: '.';
+        margin: 0;
+        opacity: 0;
+    }
+
+    .navigation li a:hover {
+        z-index: 1;
+    }
+
+    .navigation li a:hover:after {
+        z-index: -10;
+        animation: fill 1s forwards;
+        opacity: 1;
+    }
+
+    #tagline {
+        display: inline;
+    }
+
+    .companyName {
+        margin-top: -12.5rem;
+        margin-left: 15.5rem;
+    }
+    #logo {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+/*-----------------Body----------------------*/
+.reservations legend {
+    font-size: 30px;    }
+/*-----------------Footer--------------------*/
+.rightFooter {
+    display: block;
+    padding: 2rem;
+}
+.callToAction a {
+    font-size: 30px;
+}
+.centerFooter {
+    margin: 0;
+    padding-top: 3rem;
+}
+}

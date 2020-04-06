@@ -1,0 +1,54 @@
+@media only screen and (min-width: 32.5em) {
+
+    /*---------------Header Section---------------*/
+    #logo {
+        width: 150px;
+    }
+
+    #companyLogo {
+        position: relative;
+        top: -2rem;
+        left: 1rem;
+        width: 210px;
+    }
+
+    .companyName {
+        margin-top: -11.5rem;
+        margin-left: 15.5rem;
+
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    /*----------------Body---------------------*/
+
+
+    .trips {
+        width: 290px;
+        margin: 1rem .5rem;
+    }
+    .tripSummary {
+        display: flex;
+        justify-content: center;
+    }
+    .formHolder {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .reservations legend {
+        font-size: 24px;    }
+    /*-----------------Footer--------------------*/
+    .footerInfo {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .leftFooter h2,
+    .leftFooter p {
+        text-align: left;
+    }
+}

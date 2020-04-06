@@ -1,0 +1,288 @@
+main {
+    background-color: #176087;
+}
+/*---------------Header Section---------------*/
+.topHeader {
+    background-color: #176087;
+    padding: .4rem;
+}
+.topIcons {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: .5rem;
+}
+.topIcons img {
+    padding-left: .5rem;
+    padding-top: .2rem;
+}
+#companyLogo {
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+    width: 150px;
+ }
+.companyName {
+    margin-top: -10.5rem;
+    margin-left: 15.5rem;
+    
+}
+#logo {
+    width: 140px;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: #363635;
+    letter-spacing: .08rem;
+    margin-bottom: .75rem;
+    font-size: 1.2rem;
+}
+.navigation {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    margin-left: 13rem;
+    padding: 0;
+}
+.navigation li a#active {
+    font-weight: bold;
+    color: #363635;
+    background-color: #99c24d;
+    border-radius: 6px;
+}
+.navigation li:first-child {
+    display: block;
+    
+}
+.navigation li:nth-child(7) {
+    display: none;
+}
+#menuButton {
+    color: #99c24d;
+    font-size: 35px;
+    padding: 0;
+}
+.navigation li {
+    display: none;
+    padding-left: .5rem;
+    padding-right:.5rem;
+    margin: 0 .75rem
+}
+.navigation li a {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    padding: 0.5em 1.5em 0.5em 1.5em ;
+    font-family: 'Roboto', sans-serif;
+}
+.responsive li{
+    display: block;
+}
+
+
+
+#buttonText {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .05rem;
+    font-size: 18px;
+}
+#bookingButton {
+    background-color: #99c24d;
+    border-radius: .4rem;
+    margin-left: 1rem;
+    font-family: 'Anton', sans-serif;  
+}
+#bookingButton a:hover {
+    background-color: #99c24d;
+    border-radius: .4rem;
+}
+/*-----------------Body----------------------*/
+#titleHeading {
+    color: #030303;
+    text-align: center;
+    padding: 2rem;
+}
+.tripSummary {
+    padding: 2rem 0;
+}
+.tripHeading {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .09px;
+    padding:1rem;
+    background-color:#99c24d;
+    border-radius: 5px 5px 0 0;
+    color: #363635;
+    margin: 0;
+}
+.trips {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin:1rem;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2), -5px -5px 10px 0 rgba(0, 0, 0, 0.2);;
+}
+.trips p {
+    font-family: 'Roboto', sans-serif;
+    padding: .75rem .4rem;
+    margin: 0;
+    
+}
+.tripInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.infoTitle {
+    text-align: right;
+    font-weight: bold;
+}
+.infoDetail {
+    text-align: left;
+    color: #176087;
+}
+/*-----------------Form----------------------*/
+.reservations {
+    background-color: white;
+    display: block;
+}
+.reservations form {
+    display: block;
+}
+.reservations fieldset {
+    padding-right: 1rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 1rem;
+
+}
+.reservations legend {
+    font-family: 'Anton', sans-serif;
+    color: #363635;
+    padding: 2rem .5rem .5rem .5rem ;
+    
+
+}
+label.top {
+    display: block;
+    padding: .5rem;
+
+}
+label.top input, select, textarea {
+    display: block;
+    padding: .75rem;
+    border-radius: .4rem;
+    width: 100%
+
+}
+.reserveSubmit {
+    margin: 1.5rem;
+    font-family: 'Anton';
+    font-size: larger;
+    padding: .5rem 2rem;
+    background-color: #99c24d;
+    border: none;
+    border-radius: .4rem;
+}
+/*-----------------Footer--------------------*/
+.footerInfo {
+    
+    justify-content: center;
+    justify-content: space-between;
+}
+footer {
+    background-color: #363635;
+}
+h2.footerHeading {
+    color: #b1b0b0;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+.leftFooter p,
+.centerFooter p,
+.rightFooter p {
+    font-family: 'Roboto', sans-serif;
+    color: antiquewhite;
+}
+.leftFooter h2, p {
+    text-align: center;
+}
+.leftFooter {
+    padding: 2rem;
+}
+.centerFooter {
+    text-align: center;
+    padding-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.callToAction {
+    background-color: #99c24d;
+    padding: 1rem;
+    border-radius: .4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.callToAction a {
+    text-decoration: none;
+    color: #363635;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    padding: 0 2rem;
+    
+}
+.bottomIcons {
+    display: flex;
+    justify-content: center;
+    
+}
+.bottomIcons img {
+    padding: .3rem;
+    
+}
+.rightFooter {
+    display: none;
+}
+.rightFooter p,
+.rightFooter h2 {
+    text-align: right;
+}
+.rightFooter p {
+    color: antiquewhite;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+fieldset {
+    padding: 0;
+    border: none;
+
+}
+fieldset input {
+  background-color: #b1b0b0;  
+  padding: .5rem;
+  border-radius: .4rem;
+  border: none
+}
+input.submitBtn {
+    margin-top: .5rem;
+    border: none;
+    border-radius: .4rem;
+    padding: .25rem 1rem;
+    font-family: 'Anton', sans-serif;
+    font-size: larger;
+    color: #222222;
+    background-color: antiquewhite;
+
+}
+.legalInfo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(228, 228, 228);
+    padding: 1rem;
+}
+.legalInfo a {
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
