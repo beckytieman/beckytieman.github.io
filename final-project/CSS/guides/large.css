@@ -81,25 +81,9 @@
     }
 
 /*-----------------Body----------------------*/
-.trip1,
-.trip3 {
-    display: flex;
-    justify-content: center;
-    margin: 2rem;
-    align-items: center;
-}
-.trip2 {
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 2rem;
-    background-color: #c2c2c2;
-    align-items: center;
-}
-.tripIMG {
-    margin: 2rem;
-    max-width: 100%;
-    max-height: 321px;
-    display: block;
+
+.guides div {
+    margin: 0 5rem;
 }
 /*-----------------Footer--------------------*/
 .rightFooter {

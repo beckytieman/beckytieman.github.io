@@ -15,8 +15,8 @@ fetch(requestURL)
         let h2 = document.createElement('h2');
         let h3 = document.createElement('h3');
         let bio = document.createElement('p');
-        let cert = document.createElement('p');
-        let email = document.createElement('p');
+        let cert = document.createElement('h4');
+        let email = document.createElement('h4');
         let image = document.createElement('img');
 
         h2.textContent = guides[i].name;

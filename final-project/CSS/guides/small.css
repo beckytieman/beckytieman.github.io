@@ -127,6 +127,36 @@ p {
     font-family: 'Roboto';
     color: antiquewhite;
 }
+.guides {
+    background-color: white;
+    text-align: center;
+}
+.guides h2 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .08px;
+    color: #363635;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+.guides h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #363635;
+    margin: 0;
+
+}
+.guides h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #363635;
+    padding: 0 1rem;
+}
+.guides p {
+    color: black;
+    padding: 0 1rem;
+}
+.guides img {
+    max-width: 100%;
+    margin-top: 2rem;
+}
 
 /*-----------------Footer--------------------*/
 .footerInfo {

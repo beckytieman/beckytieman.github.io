@@ -3,10 +3,8 @@
         "name": "Richard (Rick) Cook",
         "photo": "rick.png",
         "yearsExperience": "22",
-        "biography": "",
-        "certification": ["ACA Instructor Certification - 2014",
-            "Whitewater Rafting Skills Level 4 Certification",
-            "First Aid and CPR Certified"],
+        "biography": "Rick Cook is the reason for Salmon River Adventures.  He grew up fishing and rafting the Salmon, and knew he wanted to share his love of the river with everyone else. He started Salmon River Adventures in 1991 from the back of his pickup truck and a single 4 man raft. When he isn't guiding down river you can find Rick in his shop working on his next woodworking project. Ask him about his first handmade canoe and you'll know just why Rick has the nickname 'Father-Goose'.",
+        "certification": "ACA Instructor Certification - 2014,  Whitewater Rafting Skills Level 4 Certification, First Aid and CPR Certified",
         "email": "RCook@SalmonAdventures.com"
 
     },
@@ -14,10 +12,10 @@
         "name": "Clint Wilkerson",
         "photo": "clint.png",
         "yearsExperience": "14",
-        "biography": "",
+        "biography": "Clint is a native to Colorado and has run some serious white water trips! He worked as a Wildland Firefighter, and a part time Wildnerness Survival Instructor before joing us here at Salmon River Adventures.  You can be sure he knows his way around outside.  Clint may come off a little quiest and shy when you meet him, but he's always the loudest on the river.",
         "certification": ["ACA Instructor Certification - 2017",
-            "Whitewater Rafting Skills Level 4 Certification",
-            "First Aid and CPR Certified"],
+            " Whitewater Rafting Skills Level 4 Certification",
+            " First Aid and CPR Certified"],
         "email": "ClintWilks@SalmonAdventures.com"
 
     },
@@ -25,7 +23,7 @@
         "name": "Sadie Cook",
         "photo": "sadie.png",
         "yearsExperience": "6",
-        "biography": "",
+        "biography": "Yes, you read that right, Sadie is legendary Rick Cook's daughter and she knows her stuff! Rafting is in her blood and she loves to teach others the skill. She is currently studying a degree in Geology and loves to bring her knowledge of the area to her tours. ",
         "certification": ["Whitewater Rafting Skills Level 2 Certification",
             "First Aid and CPR Certified"],
         "email": "SadieCook@SalmonAdventures.com"
@@ -34,7 +32,7 @@
         "name": "Patrick Byrne",
         "photo": "patrick.png",
         "yearsExperience": "11",
-        "biography": "",
+        "biography": "This is Patrick's first year with Slamon River Adventures, but he is no stranger to the water. He worked as an guide instructor in Massachuesetts for seven years before taking a bucket list backpacking trip in the rockies. Needless to say, he fell in love with the west and made his way out here as soon as he could pack. His favorite tips for rafters is to have fun and paddle hard! ",
         "certification": ["ACA Essentials Skills Cert",
             "Whitewater Rafting Skills Level 3 Certification",
             "First Aid and CPR Certified"],

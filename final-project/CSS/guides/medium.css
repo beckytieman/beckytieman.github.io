@@ -32,8 +32,12 @@
     .tripIMG {
         margin-top: 2rem;
     }
-    h3 {
-        margin: 0;
+    .guides {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .guides div {
+        margin: 0 2rem;
     }
 
     /*-----------------Footer--------------------*/
