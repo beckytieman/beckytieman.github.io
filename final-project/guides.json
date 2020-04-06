@@ -1,7 +1,7 @@
 {"guides": [
     {
         "name": "Richard (Rick) Cook",
-        "photo": "richard.jpg",
+        "photo": "richard.png",
         "yearsExperience": "22",
         "biography": "",
         "certification": ["ACA Instructor Certification - 2014",
@@ -12,7 +12,7 @@
     },
     {
         "name": "Clint Wilkerson",
-        "photo": "clint.jpg",
+        "photo": "clint.png",
         "yearsExperience": "14",
         "biography": "",
         "certification": ["ACA Instructor Certification - 2017",
@@ -23,7 +23,7 @@
     },
     {
         "name": "Sadie Cook",
-        "photo": "sadie.jpg",
+        "photo": "sadie.png",
         "yearsExperience": "6",
         "biography": "",
         "certification": ["Whitewater Rafting Skills Level 2 Certification",
@@ -32,7 +32,7 @@
     },
     {
         "name": "Patrick Byrne",
-        "photo": "patrick.jpg",
+        "photo": "patrick.png",
         "yearsExperience": "11",
         "biography": "",
         "certification": ["ACA Essentials Skills Cert",
