@@ -85,7 +85,8 @@
 .trip3 {
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    padding: 2rem;
+    margin: 0 1rem;
     align-items: center;
 }
 .trip2 {
@@ -94,6 +95,7 @@
     padding: 2rem;
     background-color: #c2c2c2;
     align-items: center;
+    
 }
 .tripIMG {
     margin: 2rem;

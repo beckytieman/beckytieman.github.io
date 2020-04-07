@@ -149,6 +149,13 @@ h3 {
     color: #176087 ;
     margin-top: 0;
 }
+.tripHead {
+    font-family: 'Anton', sans-serif;
+    color: #363635;
+    letter-spacing: .08rem;
+    margin-bottom: .75rem;
+    font-size: 40px;
+}
 .tripP {
     color: black;
     padding: 1rem;
@@ -157,7 +164,7 @@ h3 {
 .buttonHolder {
     margin: 2.5rem;
 }
-#tripButton {
+.tripButton {
     text-decoration: none;
     font-family: 'Anton', sans-serif;
     font-size: 18px;
