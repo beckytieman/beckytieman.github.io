@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+/*------------------small viewport-------------------*/
+body {
+    margin: 0;
+    background-color: #FAEBD7;
+}
+h1 {
+    font-family: 'Lora', serif;
+    margin: 0; 
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+}
+h2 {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0 2rem 3rem 2rem;
+}
+h2 a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+h2 a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
+h2 a:active {
+    color: #DEB887;
+}
+
+header {
+    background-color:#6495ED;
+    text-align: right;
+    padding-bottom: 1rem;
+     
+}
+header a {
+    color:#FAEBD7;
+    text-decoration: none;
+}
+hr {
+    margin: 0 1.5rem;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    padding: .5rem 1.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+nav ul li a:hover {
+    color: white;
+    text-decoration:underline;
+}
+nav ul li a:active {
+    color: #DEB887;
+}
+
+main {
+    background-color: #FAEBD7;
+}
+
+main article {
+    background-color: white;
+    margin: 2rem 1rem;
+    box-shadow: 3px 3px 5px lightgray ;
+
+}
+div.post-date {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 2rem 2rem .5rem 2rem;
+    color: gray;
+
+}
+section.post-content p {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0 2rem 3rem 2rem;
+}
+section.post-content p a {
+    text-decoration: none;
+    color:#6495ED;
+}
+section.post-content p a:hover {
+    text-decoration: underline;
+}
+section.post-content p a:active {
+    color: #DEB887;
+}
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+/*------------------large viewport-------------------*/
+@media only screen and (min-width: 32.5em) {
+    body div {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    h1,
+    nav {
+        margin-right: 1rem;
+    }
+    hr {
+        margin: 0 2.5rem;
+    }
+    main article {
+        margin: 3rem 4rem;
+
+    }
+    figure img {
+        width: 50%
+    }
+
+}
