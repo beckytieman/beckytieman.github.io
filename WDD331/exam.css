@@ -1,0 +1,17 @@
+fieldset:nth-of-type(2) >p + p {
+    color: blue;
+}
+div.help {
+    background-color: blueviolet;
+}
+div .help {
+    background-color: cadetblue;
+}
+span.help::before {
+    content: "(";
+}
+span.help::after {
+    content: ")";
+}
+fieldset p:nth-of-type(n+3) {
+    display: none;
